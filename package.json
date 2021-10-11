@@ -1,0 +1,8 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github_p:ktnkk/shop.git",
+  "author": "ktnkk <ktnkk@pm.me>",
+  "license": "MIT"
+}
