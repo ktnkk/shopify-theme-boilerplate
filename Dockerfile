@@ -8,6 +8,6 @@ RUN apt update -q \
     && printf "[analytics]\nenabled = false\n" > ~/.config/shopify/config \
     && curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - \
     && sudo apt install -y nodejs \
-       vim \
+       vim
 
 WORKDIR /usr/src/app
