@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: shopify
+    container_name: shop
     ports:
       - "3456:3456"
       - "9292:9292"
